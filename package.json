@@ -1,0 +1,17 @@
+{
+  "name": "goofy-foot-gidget",
+  "version": "0.0.1",
+  "description": "Animated Goofy Foot Gidget homepage",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": "Joey Hutchinson",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
