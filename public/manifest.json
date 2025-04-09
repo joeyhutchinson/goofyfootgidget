@@ -1,0 +1,19 @@
+{
+    "short_name": "gfg",
+    "name": "goofy foot gidget",
+    "icons": [
+      {
+        "src": "/images/vector/moon.svg",
+        "type": "image/svg+xml",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/images/vector/sun.svg",
+        "type": "image/svg+xml",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "%PUBLIC_URL%",
+    "display": "standalone",
+    "background_color": "#000000"
+  }
