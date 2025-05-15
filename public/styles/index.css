@@ -1,10 +1,27 @@
-#root {
-    font-family: Helvetica, Arial, sans-serif;  
+html, body {
+    margin: 0px;
+    height: 100%;
+    font-family: Helvetica, Arial, sans-serif; 
+  }
+
+#main {
+    height: 1020px;
+    background-image: url("../images/bg/earth-horizon-original.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
 }
 
 h1 {
+    margin: 0px;
+    font-size: 22em;
     color: pink;
 }
+span {
+    display: inline-block;
+}
+
+
 
 /* ---------- MEDIA QUERIES ---------- */
 
