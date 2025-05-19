@@ -3,7 +3,51 @@ html, body {
     height: 100%;
     font-family: Helvetica, Arial, sans-serif; 
     font-size: 12px;
+    color: white;
   }
+
+.slackey-regular {
+  font-family: "Slackey", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+#header {
+    display:block;
+    background-color: black;
+    height: auto;
+    padding: 10px;
+}
+
+#logo {
+    display:block;
+    position:relative;
+    height: 82px;
+    background-image: url("../images/solar-images/red-sun-sdo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 82px;
+    border-radius: 34px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+#logo p {
+    display:inline-block;
+    margin: 22px 0;
+    font-size: 2rem;
+}
+
+#nav-container {
+    display:block;
+    background-color: #17171b;
+    height: 40px;
+}
 
 #main {
     height: 1020px;
@@ -27,7 +71,6 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 8rem;
-    color: white;
     margin: auto;
 }
 
@@ -44,10 +87,6 @@ h1 {
 
 .sun {
     display:inline-block;
-    width: 52px;
-    height: 52px;
-    margin: 0 2px;
-    border-radius: 44px;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
@@ -55,26 +94,39 @@ h1 {
 
 #sun-o1 {
     background-image: url("../images/solar-images/blue-sun-sdo.jpg");
+    width: 82px;
+    height: 82px;
+    border-radius: 64px;
 }
 
 #sun-o2 {
-    background-image: url("../images/solar-images/yellow-sun-sdo.jpg");
+    background-image: url("../images/solar-images/orange-sun-sdo.jpg");
+    width: 52px;
+    height: 52px;
+    border-radius: 44px;
 }
 
 #sun-o3 {
     background-image: url("../images/solar-images/red-sun-sdo.jpg");
+    width: 32px;
+    height: 32px;
+    border-radius: 24px;
 }
 
 #sun-o4 {
-    background-image: url("../images/solar-images/orange-sun-sdo.jpg");
+    background-image: url("../images/solar-images/yellow-sun-sdo.jpg");
+    width: 62px;
+    height: 62px;
+    border-radius: 54px;
+    transform: rotate(180deg)
 }
 
 #footer {
     display: block;
     padding: 1rem;
-    background-color: #202020;
-    color: white;
-    
+    background-color: #17171b;
+    font-size: 1.2rem;
+
 }
 
 #footer a {
