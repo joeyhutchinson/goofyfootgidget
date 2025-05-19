@@ -50,7 +50,7 @@ header {
 }
 
 #main {
-    height: 1020px;
+    height: 780px;
     background-image: url("../images/bg/jwst-deep-field-3-original.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -123,6 +123,7 @@ h1 {
 
 #footer {
     display: block;
+    text-align: center;
     padding: 1rem;
     background-color: #17171b;
     font-size: 1.2rem;
@@ -132,7 +133,6 @@ h1 {
 #footer a {
     color: white;
 }
-
 
 /* ---------- ANNIMATIONS ---------- */
 
