@@ -7,7 +7,7 @@ html, body {
 
 #main {
     height: 1020px;
-    background-image: url("../images/bg/earth-horizon-original.jpg");
+    background-image: url("../images/bg/jwst-deep-field-3-original.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
@@ -21,21 +21,82 @@ html, body {
 }
 
 h1 {
+    display:inline-block;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 10rem;
+    font-size: 8rem;
     color: white;
-    text-shadow: -2px -2px 0 #292929, 2px -2px 0 #292929, -2px 2px 0 #292929, 10px 10px 0 #292929;
     margin: auto;
+}
+
+.aria-invisible {
+    border: 0; 
+    clip: rect(0 0 0 0); 
+    height: 1px;  
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.sun {
+    display:inline-block;
+    width: 52px;
+    height: 52px;
+    margin: 0 2px;
+    border-radius: 44px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+#sun-o1 {
+    background-image: url("../images/solar-images/blue-sun-sdo.jpg");
+}
+
+#sun-o2 {
+    background-image: url("../images/solar-images/yellow-sun-sdo.jpg");
+}
+
+#sun-o3 {
+    background-image: url("../images/solar-images/red-sun-sdo.jpg");
+}
+
+#sun-o4 {
+    background-image: url("../images/solar-images/orange-sun-sdo.jpg");
+}
+
+#footer {
+    display: block;
+    padding: 1rem;
+    background-color: #202020;
+    color: white;
+    
+}
+
+#footer a {
+    color: white;
 }
 
 
 /* ---------- ANNIMATIONS ---------- */
 
+@keyframes float {
+        0% {
+            transform: translateY(0);
+        }
 
+        50% {
+            transform: rotate(-360deg) translateY(-80px);
+        }
 
+        100% {
+            transform: translateY(0);
+        }
+    }
 
 /* ---------- MEDIA QUERIES ---------- */
 
